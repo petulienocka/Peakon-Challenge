@@ -1,0 +1,131 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+$background-color: #29412f;
+$text-color: black;
+$secondary-text-color: grey;
+$white-color: white;
+$main-font: bold Roboto, sans-serif;
+$radius: 10px;
+$border: solid 2px grey;
+
+// General styling //
+
+body {
+    background-color: $background-color; 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+// Component styling //
+
+.container {
+    width: 500px;
+    color: $text-color;
+}
+.input-container {
+    position: relative;
+  }
+  
+.input-container > .icon {
+    position: absolute;
+    float: right;
+    top: 20px;
+    right: 0;
+    color: $secondary-text-color;
+  }
+  
+.input-container > input {
+    padding-left: 20px;
+  }
+
+.results {
+    margin-top: 15px;
+    width: 500px;
+    border-radius: $radius;
+    max-height: 200px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+    cursor: pointer;
+    border: $border;
+
+}
+
+.results::-webkit-scrollbar {
+    display: none;
+}
+.manager-input {
+    border: $border;
+    width: 500px;
+    height: 50px;
+    border-radius: $radius;
+    
+}
+.manager-input:focus {
+    outline: #29412f;
+}
+label {
+    font-family: $main-font;
+
+}
+.container-square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7ed1ca;
+    width: 70px;
+    height: 70px;
+    color: $white-color;
+    border-radius: $radius;
+}
+
+.text {
+    position: absolute;
+    float: left;
+    left: 100px;
+}
+
+.text p {
+    color: $secondary-text-color;
+}
+
+label {
+    color: $white-color;
+}
+
+.list-group-item.active,
+.list-group-item:hover {
+    background-color: #f5f5f5;
+    color: $text-color;
+    outline: none;
+}
+
+
+// App.js styling //
+
+.bottom-container {
+    position: relative;
+    min-height: 100px;
+}
+
+.footer {
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
+} 
+
+.footer h6 {
+    color: $white-color;
+    font-family: $main-font;
+}
+
+
+
+
+
+
