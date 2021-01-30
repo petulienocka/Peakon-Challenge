@@ -27,8 +27,3 @@ FULFILLED REQUIREMENTS:
     - Managers are filtered across first name and last name
 4. When the input loses focus, the list of available managers disappears and the entered value is being kept.
 5. User can navigate the list of managers with keyboard's keys and when enter is pressed, name of selected manager is displayed
-
-
-NOTE for Peakon:
-
-Please, read more about the project in PDF document attached with Assignment Solution
