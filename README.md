@@ -1,4 +1,4 @@
-![Alt text](./example.png?raw=true "Example Image") 
+![Alt text](./example/Example.png?raw=true "Example Image") 
 
 *************************
 LIVE SEARCH COMPONENT 
